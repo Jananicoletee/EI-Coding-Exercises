@@ -1,0 +1,55 @@
+AstronautScheduler
+Overview
+The AstronautScheduler project is a console-based application designed to help astronauts organize their daily schedules. The application allows users to add, remove, and view daily tasks. Each task has a description, start time, end time, and priority level. This project demonstrates the implementation of several design patterns, including Singleton, Factory, and Observer patterns.
+
+Project Structure
+
+AstronautScheduler/
+├── src/
+│   ├── main/
+│   │   ├── Task.java
+│   │   ├── TaskFactory.java
+│   │   ├── ScheduleManager.java
+│   │   ├── Observer.java
+│   │   ├── TaskConflictObserver.java
+│   │   ├── ConsoleLogger.java
+│   │   ├── App.java
+│   │   ├── Main.java
+├── test/
+│   ├── ScheduleManagerTest.java
+Components
+Task.java: Represents a task with a description, start time, end time, and priority level.
+TaskFactory.java: Uses the Factory pattern to create Task objects.
+ScheduleManager.java: Uses the Singleton pattern to ensure there is only one instance managing the schedule.
+Observer.java: An interface for observers to implement.
+TaskConflictObserver.java: Implements the Observer pattern to notify users of task conflicts.
+ConsoleLogger.java: Logs application usage and errors.
+App.java: The main application logic.
+Main.java: The entry point of the application.
+ScheduleManagerTest.java: Unit tests for the ScheduleManager class.
+Design Patterns
+Singleton Pattern
+ScheduleManager: Ensures there is only one instance of the schedule manager managing the tasks.
+Factory Pattern
+TaskFactory: Creates Task objects, encapsulating the object creation logic.
+Observer Pattern
+TaskConflictObserver: Observes the ScheduleManager and notifies users of task conflicts.
+Observer: An interface for observers to implement.
+Functional Requirements
+Add a Task: Add a new task with a description, start time, end time, and priority level.
+Remove a Task: Remove an existing task.
+View Tasks: View all tasks sorted by start time.
+Validate Tasks: Ensure new tasks do not overlap with existing tasks.
+Error Handling: Provide appropriate error messages for invalid operations.
+Optional Features
+Edit a Task: Edit an existing task.
+Mark Task as Completed: Mark tasks as completed.
+View Tasks by Priority: View tasks for a specific priority level.
+Non-functional Requirements
+Exception Handling: Handle exceptions gracefully.
+Performance Optimization: Ensure the application is optimized for performance.
+Logging: Implement a logging mechanism for tracking application usage and errors.
+
+How to Run
+Clone the Repository:
+git clone https://github.com/yourusername/AstronautScheduler.git
