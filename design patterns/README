@@ -1,0 +1,13 @@
+This repository contains examples of various design patterns in Java, including behavioral, creational, and structural patterns. Each pattern is demonstrated with a specific use case to show its practical application.
+
+Table of Contents
+
+1. [Behavioral Design Patterns](#behavioral-design-patterns)
+    - Observer Pattern
+    - Strategy Pattern
+2. [Creational Design Patterns](#creational-design-patterns)
+    - Singleton Pattern
+    - Factory Pattern
+3. [Structural Design Patterns](#structural-design-patterns)
+    - Adapter Pattern
+    - Decorator Pattern
