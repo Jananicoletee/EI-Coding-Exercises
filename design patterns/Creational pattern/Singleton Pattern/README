@@ -1,0 +1,12 @@
+Singleton Pattern
+Database Connection Manager
+Overview
+
+This project implements a database connection manager using the Singleton design pattern. The Singleton pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to it. In this example, DatabaseConnectionManager ensures that only one instance of the connection manager exists.
+
+Project Structure
+
+The project consists of the following components:
+
+DatabaseConnectionManager: The Singleton class that provides a global point of access to the database connection.
+Main: A class to demonstrate the creation and usage of the DatabaseConnectionManager instance.
