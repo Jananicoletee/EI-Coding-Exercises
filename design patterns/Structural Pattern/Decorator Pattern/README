@@ -1,0 +1,15 @@
+Decorator Pattern
+Coffee Shop
+Overview
+
+This project implements a coffee shop using the Decorator design pattern. The Decorator pattern is a structural design pattern that allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class. In this example, different types of coffee can be decorated with additional ingredients like Milk, Sugar, and WhippedCream.
+
+Project Structure
+
+The project consists of the following components:
+
+Coffee Interface: An interface with methods getDescription and getCost that all coffee types must implement.
+SimpleCoffee: A concrete class implementing the Coffee interface.
+CoffeeDecorator: An abstract class implementing the Coffee interface and containing a reference to a Coffee object.
+MilkDecorator, SugarDecorator, WhippedCreamDecorator: Concrete decorator classes that extend CoffeeDecorator to add specific ingredients.
+Main: A class to demonstrate the decoration of coffee with different ingredients.
