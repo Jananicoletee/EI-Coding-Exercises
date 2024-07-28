@@ -1,0 +1,14 @@
+Factory Pattern
+Shape Factory
+Overview
+
+This project implements a shape factory using the Factory design pattern. The Factory pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In this example, ShapeFactory creates different types of shapes like Circle, Rectangle, and Square.
+
+Project Structure
+
+The project consists of the following components:
+
+Shape Interface: An interface with a draw method that all shapes must implement.
+Circle, Rectangle, Square: Concrete classes that implement the Shape interface.
+ShapeFactory: A factory class that creates instances of different shapes based on the provided input.
+Main: A class to demonstrate the creation of shapes using the ShapeFactory.
