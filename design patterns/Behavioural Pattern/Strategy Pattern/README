@@ -1,0 +1,14 @@
+Strategy Pattern
+Payment Processing System
+Overview
+
+This project implements a payment processing system using the Strategy design pattern. The Strategy pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. In this example, different payment methods like CreditCardPayment, PayPalPayment, and BankTransferPayment are strategies that can be used to process payments in a shopping cart.
+
+Project Structure
+
+The project consists of the following components:
+
+PaymentStrategy Interface: An interface defining the pay method that all payment strategies must implement.
+CreditCardPayment, PayPalPayment, BankTransferPayment: Concrete strategy classes that implement the PaymentStrategy interface.
+ShoppingCart: The context class that uses a PaymentStrategy to process payments.
+Main: A class to demonstrate the use of different payment strategies.
