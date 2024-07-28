@@ -1,0 +1,16 @@
+Weather Station Notification System
+Overview
+
+This project implements a Weather Station notification system using the Observer design pattern. The Observer pattern is a behavioral design pattern that allows an object, known as the subject, to maintain a list of its dependents, called observers, and notify them of state changes. In this example, WeatherStation serves as the subject, and WeatherDisplay implements the Observer interface to act as the observer.
+
+Project Structure
+
+The project consists of the following components:
+
+WeatherData: A simple class representing weather data, containing attributes like temperature, humidity, and pressure.
+
+Observer Interface: An interface with an update method that all observers must implement. This method is called when new weather data is available.
+
+WeatherStation: The subject class that manages a list of observers and notifies them when new weather data is available.
+
+WeatherDisplay: The observer class that implements the Observer interface. It subscribes to a WeatherStation and receives notifications when new weather data is available.
