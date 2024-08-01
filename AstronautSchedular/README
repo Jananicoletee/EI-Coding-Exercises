@@ -23,6 +23,4 @@ TaskConflictObserver: Observes the ScheduleManager and notifies users of task co
 Observer: An interface for observers to implement.
 
 
-How to Run
-Clone the Repository:
-git clone https://github.com/yourusername/AstronautScheduler.git
+
