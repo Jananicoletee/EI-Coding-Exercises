@@ -12,7 +12,6 @@ TaskConflictObserver.java: Implements the Observer pattern to notify users of ta
 ConsoleLogger.java: Logs application usage and errors.
 App.java: The main application logic.
 Main.java: The entry point of the application.
-ScheduleManagerTest.java: Unit tests for the ScheduleManager class.
 
 
 Singleton Pattern
